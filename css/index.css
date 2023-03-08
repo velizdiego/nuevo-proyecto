@@ -1,0 +1,21 @@
+:root {
+    
+    --theme-color:white;
+    --primary-color:blue;
+    --secundari-color:yellow;
+    --tex-color:black;
+    --navbar-shallow-color:white;
+    --menu-mobile-background-color:#003249;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: var(--theme-color);
+    color: var(--tex-color);
+    padding-top: 70px;
+    
+}
+a {
+    text-decoration: none;
+    color: var(--tex-color);
+}

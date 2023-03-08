@@ -1,0 +1,49 @@
+.skills-title{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.skills-skills {
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0 4px 10px rgb(11, 11, 75);
+    border-radius: 42px;
+    padding: 0.5em 0,7em;
+    margin: 10px;
+}
+.skills-list {
+    list-style: none;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+}
+.contac-title {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+@media (min-width: 950px){
+    .skills-title{
+        font-size: 30px;
+        text-align: center;
+    
+    }
+    
+    }
+    .skills-list {
+        list-style: none;
+        padding: 0;
+    
+        display: flex;
+        justify-content: center;
+    }
+    .contac-title {
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center; 
+}

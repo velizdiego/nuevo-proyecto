@@ -4,13 +4,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuestro primer ejemplo en HTMlt</title>
+    <title>cv Diego Veliz</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/experiencia.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+    <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script> 
+    <script defer src="js/app.js"></script>
 </head>
 <body>
-    <h1>titulo 1</h1>
-    <h2>titulo 2</h2>
-    <h3>titulo 3</h3>
-    <h4>titulo 4</h4>
-    <p>Hola Mundo!</p>
+    
+    <header class="topheader">
+        <nav class="topnav">
+            <a href="#" class="logo">
+                <div>
+                    cv     
+                </div>
+            </a>
+            
+            <button class="open-menu" aria-label="abrir menu ">
+                <img src="bars-solid.svg" alt="abrir menu">
+            </button>
+            <ul class="menu">
+                <button class="close-menu" aria-label="cerrar menu ">
+                    <img src="xmark-solid.svg" alt="cerrar menu">
+                </button>
+                
+            <li><a href="#profile" class="selected">Perfil</a></li>
+            <li><a href="#Experience">Experiencia</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#contac">contacto</a></li>
+            </ul>
+        </a>
+        </nav>
+    </header>
+    <section class="profile" id="profile">
+        <div class="profile-info"></div>
+        <h1 class="profile-title">hola soy <br /> Diego Veliz</h1>
+        <p class="profile-details">
+            Me gusta mucho, todo lo que tenga que ver con la tecnologia.
+            soy una persona proactiva y muy apasionado por la musica.
+        </p>
+       
+        <div class="profile-img-section">
+            <img src="foto cv.jpg" alt="cv proyecto">
+            <a href="https://facebook.com/" class="facebook" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+             </a> 
+            <a href="https://instagram.com/" class="instagram" target="_blank">
+                 <i class="fa-brands fa-square-instagram"></i> 
+                </a> 
+            <a href="https://twitter.com/" class="twitter" target="_blank">
+                 <i class="fa-brands fa-twitter"></i>
+                 </a>
+            <a href="https://linkedin.com/" class="linkedin" target="_blank">
+                 <i class="fa-brands fa-linkedin"></i>
+                 </a>  
+        </div>
+
+    </section>
+    <section class="skills" id="skills">
+        <img src="wave (7).svg" alt="">
+        <h2 class="skills-title">Habilidades</h2>
+        <ul class="skills-list">
+            <li class="skills-skills">ingles intermedio</li>
+            <li class="skills-skills">tecnico bachiller en pc</li>
+            <li class="skills-skills">java script</li>
+            <li class="skills-skills">Rubi</li>
+        </ul>
+
+        <div class="skills-profiles"></div>
+
+    </section>
+    <section class="experiences" id="experiences">
+        <img src="wave.svg" alt="">
+        <h2 class="experience-title">Experiencia</h2>
+        <p class="experience-details">
+            En la actualidad estoy IBM Arg
+            como responsable del area de frondt-end
+            y dando apayo  tanto en el area de back-end ,
+            como en el area de analista de sistema.
+            
+        </p>
+    </section>
+    <section class="contac" id="contac">
+        <img src="wave (6).svg" alt="">
+        <h2 class="contac-title">Contacto</h2>
+        <ul class="contac-list">
+            <li class="skills-skills">Numero de telefono : 3487303030</li>
+            <li class="skills-skills">E-mail : velizdiego@mail.com</li>
+            <li class="skills-skills">Codigo Postal : 2800</li>
+            <li class="skills-skills">Ciudad : Zarate (buenos aires)</li>
+        </ul>
+        <img src="wave (1).svg" alt="">
+
+
+        <div class="skills-profiles"></div>
+
+    </section>
+    
+    
+    
 </body>
 </html>
